@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soical Media</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="main-nav flex">
+      <div class="nav-left flex">
+        <a href="index.html">
+          <img src="images/logo.png" class="logo" />
+        </a>
+        <ul>
+          <li><img src="images/notification.png" /></li>
+          <li><img src="images/inbox.png" /></li>
+          <li><img src="images/video.png" /></li>
+        </ul>
+      </div>
+      <div class="nav-right flex">
+        <div class="sarch flex">
+          <img src="images/search.png" alt="sarch" />
+          <input type="text" placeholder="sarch" />
+        </div>
+        <div class="nav-user-icon" onclick="settingMenuToggle()">
+          <img src="images/profile-pic.png" />
+        </div>
+      </div>
+
+      <!-- settting menu -->
+
+      <div class="setting-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+        <div class="setting-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile.png" />
+            <div>
+              <p>John Nichon</p>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="/images/feedback.png" />
+            <div>
+              <p>Give feedback</p>
+              <a href="#">Help us to imporve new design</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="setting-links">
+            <img src="images/setting.png" class="setting-icon" />
+            <a href="#"
+              >Setting & Privacy <img src="images/arrow.png" alt=""
+            /></a>
+          </div>
+          <div class="setting-links">
+            <img src="images/help.png" class="setting-icon" />
+            <a href="#">Help & Support <img src="images/arrow.png" alt="" /></a>
+          </div>
+          <div class="setting-links">
+            <img src="images/display.png" class="setting-icon" />
+            <a href="#"
+              >Display & Accessibility <img src="images/arrow.png" alt=""
+            /></a>
+          </div>
+
+          <div class="setting-links">
+            <img src="images/logout.png" class="setting-icon" />
+            <a href="#">Logout <img src="images/arrow.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- containt -->
+    <div class="cantainer">
+      <!-- leftside bar -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <ul>
+            <li>
+              <a href="#"><img src="images/news.png" /> Latest News</a>
+            </li>
+            <li>
+              <a href="#"><img src="images/friends.png" /> Friends</a>
+            </li>
+            <li>
+              <a href="#"><img src="images/group.png" /> Group</a>
+            </li>
+            <li>
+              <a href="#"><img src="images/marketplace.png" /> Marketplace</a>
+            </li>
+            <li>
+              <a href="#"><img src="images/watch.png" />Watch</a>
+            </li>
+            <li><a href="#">See More</a></li>
+          </ul>
+        </div>
+
+        <div class="shortcut-link">
+          <p>Your shortcut</p>
+          <ul class="">
+            <li>
+              <a href="#"><img src="images/shortcut-1.png" />Web Developers</a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/shortcut-2.png" />Web Design Course</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/shortcut-3.png" />Full Stack Development</a
+              >
+            </li>
+            <li>
+              <a href="#"><img src="images/shortcut-4.png" />Website Experts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- main contant -->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="/images/upload.png" />
+            <p>Post story</p>
+          </div>
+          <div class="story story2">
+            <img src="/images/member-1.png" />
+            <p>Arushi</p>
+          </div>
+          <div class="story story3">
+            <img src="/images/member-2.png" />
+            <p>Aryan</p>
+          </div>
+          <div class="story story4">
+            <img src="./images/member-3.png" />
+            <p>Neha</p>
+          </div>
+          <div class="story story5">
+            <img src="./images/member-4.png" />
+            <p>Charweek</p>
+          </div>
+        </div>
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="./images/profile.png" />
+            <div>
+              <p>John Nichon</p>
+              <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="What's on you mind,JShon? "
+            ></textarea>
+
+            <div class="ads-post-link">
+              <a href="#"><img src="images/live-video.png" />Live Video</a>
+              <a href="#"><img src="images/photo.png" />Video/ Photo</a>
+              <a href="#"><img src="images/feeling.png" />Felling/Activity</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./images/profile.png" />
+              <div>
+                <p>John Nichon</p>
+                <span>June 24 2022, 13:30 p.m</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            “Nature has given us all the pieces required to achieve exceptional
+            wellness and health, but has left it to us to put these pieces
+            together.”—Diane McLaren
+            <a href="#">#Tubaartist</a> <a href="#">#Youtubchannel</a>
+          </p>
+          <div>
+            <img src="images/feed-image-1.png" class="hello" />
+          </div>
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like-blue.png" />954</div>
+              <div><img src="images/comments.png" /> 600</div>
+              <div><img src="images/share.png" class="a-icon" />422</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./images/profile.png" />
+              <div>
+                <p>John Nichon</p>
+                <span>June 24 2022, 13:30 p.m</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            “Nature has given us all the pieces required to achieve exceptional
+            wellness and health, but has left it to us to put these pieces
+            together.”—Diane McLaren
+            <a href="#">#Tubaartist</a> <a href="#">#Youtubchannel</a>
+          </p>
+          <div>
+            <img src="images/feed-image-2.png" class="hello" />
+          </div>
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like.png" />258</div>
+              <div><img src="images/comments.png" /> 300</div>
+              <div><img src="images/share.png" />69</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./images/profile.png" />
+              <div>
+                <p>John Nichon</p>
+                <span>June 24 2022, 13:30 p.m</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            “Nature has given us all the pieces required to achieve exceptional
+            wellness and health, but has left it to us to put these pieces
+            together.”—Diane McLaren
+            <a href="#">#Tubaartist</a> <a href="#">#Youtubchannel</a>
+          </p>
+          <div>
+            <img src="images/feed-image-3.png" class="hello" />
+          </div>
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like.png" />150</div>
+              <div><img src="images/comments.png" /> 250</div>
+              <div><img src="images/share.png" />60</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./images/profile.png" />
+              <div>
+                <p>John Nichon</p>
+                <span>June 24 2022, 13:30 p.m</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            “Nature has given us all the pieces required to achieve exceptional
+            wellness and health, but has left it to us to put these pieces
+            together.”—Diane McLaren
+            <a href="#">#Tubaartist</a> <a href="#">#Youtubchannel</a>
+          </p>
+          <div>
+            <img src="images/feed-image-4.png" class="hello" />
+          </div>
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like.png" />189</div>
+              <div><img src="images/comments.png" /> 200</div>
+              <div><img src="images/share.png" />60</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="./images/profile.png" />
+              <div>
+                <p>John Nichon</p>
+                <span>June 24 2022, 13:30 p.m</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            “Nature has given us all the pieces required to achieve exceptional
+            wellness and health, but has left it to us to put these pieces
+            together.”—Diane McLaren
+            <a href="#">#Tubaartist</a> <a href="#">#Youtubchannel</a>
+          </p>
+          <div>
+            <img src="images/feed-image-5.png" class="hello" />
+          </div>
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="images/like.png" />100</div>
+              <div><img src="images/comments.png" /> 250</div>
+              <div><img src="images/share.png" />42</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="load-more-btn">Load more</button>
+      </div>
+
+      <!-- rightside bar -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>May</span>
+          </div>
+
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Nikita Nishad</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>May</span>
+          </div>
+
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Nikita Nishad</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <img class="sidebar-ads" src="./images/advertisement.png" />
+
+        <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list online">
+          <img src="./images/member-1.png" class="online-list" />
+          <p>Arushi</p>
+        </div>
+        <div class="online-list online">
+          <img src="./images/member-2.png" class="online-list" />
+          <p>Dr.Khan</p>
+        </div>
+        <div class="online-list online">
+          <img src="./images/member-3.png" class="online-list" />
+          <p>Soniya</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright 2023- Nikita Nishad</p>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/fac255b4c4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
